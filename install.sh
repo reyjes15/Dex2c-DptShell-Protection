@@ -55,7 +55,7 @@ fi
 
 cd $HOME
 rm -f dcc-dpt-protection
-wget -q --show-progress "https://github.com/reyjes15/Dex2c-DptShell-Protection/releases/download/v1.0/dcc-dpt-protection" -O dcc-dpt-protection
+wget -q --show-progress "https://github.com/reyjes15/Dex2c-DptShell-Protection/releases/download/v1.1/dcc-dpt-protection" -O dcc-dpt-protection
 chmod 700 dcc-dpt-protection
 
 # OPSI 1: Peringatan Keras di akhir instalasi
