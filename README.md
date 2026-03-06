@@ -1,4 +1,4 @@
-# 🛡️ Dex2C & DPT Shell Ultimate Protection
+# 🛡️ Dex2C & DPT Shell Ultimate Protection With Anti-Tamper
 **Automated Dex2C & DPT Packer Environment for Termux**
 
 ![Version](https://img.shields.io/badge/Version-1.0%20Dex2cDptShell-blue)
