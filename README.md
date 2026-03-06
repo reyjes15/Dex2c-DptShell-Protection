@@ -43,7 +43,7 @@ Open your Termux application and execute the protector by simply typing:
 ```
 
 **4. Retrieve Protected Assets**
-Depending on the protection method you selected in the tool, the final protected APK will be automatically generated and saved in specific output folders inside the `MOD` directory:
+Depending on the protection method you selected in the tool, the final protected APK will be automatically generated and saved in specific output folders inside the `/storage/emulated/0/MOD/` directory:
 
 * 📁 **`MOD/DEX2C/`** ➔ Contains APKs protected with **Dex2C Only**.
 * 📁 **`MOD/DPT/`** ➔ Contains APKs protected with **DPT Only** OR the **Dex2C + DPT Shell Combo**.
