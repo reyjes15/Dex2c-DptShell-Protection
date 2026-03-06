@@ -10,7 +10,7 @@
 
 By combining the power of **Dex2C** (translating Dalvik bytecode into native C/C++ binaries) and **DPT Packer** (advanced application packing), this tool provides a multi-layered, iron-clad defense for your Android applications.
 
-## ✨ Premium Features
+## ✨ Features
 * **⚙️ 1-Click Environment Setup:** Automatically detects and installs required dependencies (Python, OpenJDK-17, Clang, Make, Android SDK, and NDK r26).
 * **🛡️ Native Dex2C Obfuscation:** Converts vulnerable `.dex` code into heavily obfuscated `.so` native libraries.
 * **📦 DPT Packer Integration:** Wraps the entire application structure, preventing unauthorized tampering and repackaging.
