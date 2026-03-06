@@ -34,7 +34,7 @@ Follow these simple steps to start protecting your Android applications:
 Create a new folder named `MOD` in your device's internal storage (SD Card).
 
 **2. Target Placement**
-Copy or move the target `.apk` file you wish to protect inside the newly created `MOD` folder.
+Copy or move the target `.apk` file you wish to protect inside the newly created `/storage/emulated/0/MOD/` folder.
 
 **3. Execute the Suite**
 Open your Termux application and execute the protector by simply typing:
