@@ -58,8 +58,8 @@ echo "export LD_LIBRARY_PATH=\$PREFIX/lib" >> ~/.bashrc && source ~/.bashrc
 
 ## 📢 SETUP ANTI-TAMPER
 This setup is the final size of the protected apk. so you need to do 2x protection execution to get successful apk
-1. execute the apk script until it is finished, copy the size of the apk that has been protected in properties, long press, take the size in brackets
-2. second execution paste the copy of the apk size that you copied earlier
+1. execute the script and select the apk to protect, Enter any number in 'SETUP ANTI-TAMPER'. After it is finished, protect it.  copy the size of the apk that has been protected in properties, long press, take the size in brackets
+2. Do the execution again from the beginning in your original apk (not the one that has been protected) and paste the apk size that you copied earlier in 'SETUP ANTI-TAMPER'
 3. ✅ done
 
 
