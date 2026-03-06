@@ -1,8 +1,8 @@
 
-# 🛡️ Dex2C & DPT Ultimate Protector
+# 🛡️ Dex2C & DPT Shell Ultimate Protection
 **Automated Dex2C & DPT Packer Environment for Termux**
 
-![Version](https://img.shields.io/badge/Version-1.0%20Axel-Z-blue)
+![Version](https://img.shields.io/badge/Version-1.0%20Axel-blue)
 ![Platform](https://img.shields.io/badge/Platform-Termux%20Android-green)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
