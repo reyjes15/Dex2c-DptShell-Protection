@@ -56,7 +56,7 @@ EOF
 echo -e "\e[32m[+] Mengunduh/Update Core System Axel (dex2c&dpt)...\e[0m"
 cd $HOME
 rm -f dcc-dpt-protection
-wget -q --show-progress "https://raw.githubusercontent.com/UsernameKamu/NamaRepoKamu/main/dcc-dpt-protection" -O dcc-dpt-protection
+wget -q --show-progress "https://github.com/reyjes15/Dex2c-DptShell-Protection/releases/download/v1.0/dcc-dpt-protection" -O dcc-dpt-protection
 chmod 700 dcc-dpt-protection
 
 echo -e "\e[32m[✓] INSTALASI SELESAI & SCRIPT SIAP DIGUNAKAN!\e[0m"
