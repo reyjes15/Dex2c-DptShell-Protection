@@ -21,7 +21,7 @@ By combining the power of **Dex2C** (translating Dalvik bytecode into native C/C
 To install and set up the environment, simply copy and paste the following one-liner command into your Termux application:
 
 ```bash
-curl -sL "[https://raw.githubusercontent.com/reyjes15/Dex2c-DptShell-Protection/refs/heads/main/install.sh](https://raw.githubusercontent.com/reyjes15/Dex2c-DptShell-Protection/refs/heads/main/install.sh)" | bash
+curl -sL "https://raw.githubusercontent.com/reyjes15/Dex2c-DptShell-Protection/refs/heads/main/install.sh" | bash
 ```
 
 > **Note:** Please ensure you have a stable internet connection during the initial setup as the script will download necessary SDK/NDK components if they are not already present on your device.
