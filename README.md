@@ -50,6 +50,19 @@ Depending on the protection method you selected in the tool, the final protected
 
 > **💡 Pro Tip (Ultimate Combo):** If you execute the combo protection, the output file found in the `DPT` folder is your ultimate protected APK. It has been successfully processed through Dex2C native obfuscation first, and subsequently wrapped with the DPT Shell Packer for maximum, iron-clad security.
 
+if you encounter Warning: linker when executing this copy and paste for the first time, if there is no problem ignore this:
+```bash
+echo "export LD_LIBRARY_PATH=\$PREFIX/lib" >> ~/.bashrc && source ~/.bashrc
+```
+
+
+## 📢 SETUP ANTI-TAMPER
+This setup is the final size of the protected apk. so you need to do 2x protection execution to get successful apk
+1. execute the apk script until it is finished, copy the size of the apk that has been protected in properties, long press, take the size in brackets
+2. second execution paste the copy of the apk size that you copied earlier
+3. ✅ done
+
+
 ## 👨‍💻 Developer & Contact
 This project is exclusively developed and maintained by:
 
