@@ -21,19 +21,34 @@ By combining the power of **Dex2C** (translating Dalvik bytecode into native C/C
 To install and set up the environment, simply copy and paste the following one-liner command into your Termux application:
 
 ```bash
-curl -sL "https://raw.githubusercontent.com/reyjes15/Dex2c-DptShell-Protection/refs/heads/main/install.sh" | bash
+curl -sL "[https://raw.githubusercontent.com/reyjes15/Dex2c-DptShell-Protection/refs/heads/main/install.sh](https://raw.githubusercontent.com/reyjes15/Dex2c-DptShell-Protection/refs/heads/main/install.sh)" | bash
 ```
 
 > **Note:** Please ensure you have a stable internet connection during the initial setup as the script will download necessary SDK/NDK components if they are not already present on your device.
 
-## ⚙️ Execution
-After the installation is complete, close your Termux completely and reopen it (or open a new session) to refresh the system paths. 
+## 📖 Usage Guide
 
-Then, execute the protector by simply typing:
+Follow these simple steps to start protecting your Android applications:
 
+**1. Prepare the Workspace**
+Create a new folder named `MOD` in your device's internal storage (SD Card).
+
+**2. Target Placement**
+Copy or move the target `.apk` file you wish to protect inside the newly created `MOD` folder.
+
+**3. Execute the Suite**
+Open your Termux application and execute the protector by simply typing:
 ```bash
 ./dcc-dpt-protection
 ```
+
+**4. Retrieve Protected Assets**
+Depending on the protection method you selected in the tool, the final protected APK will be automatically generated and saved in specific output folders inside the `MOD` directory:
+
+* 📁 **`MOD/DEX2C/`** ➔ Contains APKs protected with **Dex2C Only**.
+* 📁 **`MOD/DPT/`** ➔ Contains APKs protected with **DPT Only** OR the **Dex2C + DPT Shell Combo**.
+
+> **💡 Pro Tip (Ultimate Combo):** If you execute the combo protection, the output file found in the `DPT` folder is your ultimate protected APK. It has been successfully processed through Dex2C native obfuscation first, and subsequently wrapped with the DPT Shell Packer for maximum, iron-clad security.
 
 ## 👨‍💻 Developer & Contact
 This project is exclusively developed and maintained by:
