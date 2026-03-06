@@ -66,7 +66,7 @@ This setup is the final size of the protected apk. so you need to do 2x protecti
 ## 👨‍💻 Developer & Contact
 This project is exclusively developed and maintained by:
 
-* **Script ini memerlukan login harap hubungi admin ini**
+* **This script requires login, contact admin**
 * **Developer:** AXEL-Z
 * **Telegram:** [@NocturneVail](https://t.me/NocturneVail)
 
