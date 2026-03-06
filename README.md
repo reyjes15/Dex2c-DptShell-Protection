@@ -50,7 +50,7 @@ Depending on the protection method you selected in the tool, the final protected
 
 > **💡 Pro Tip (Ultimate Combo):** If you execute the combo protection, the output file found in the `DPT` folder is your ultimate protected APK. It has been successfully processed through Dex2C native obfuscation first, and subsequently wrapped with the DPT Shell Packer for maximum, iron-clad security.
 
-if you encounter Warning: linker when executing this copy and paste for the first time, if there is no problem ignore this:
+**if you encounter Warning: linker when executing this copy and paste for the first time, if there is no problem ignore this:**
 ```bash
 echo "export LD_LIBRARY_PATH=\$PREFIX/lib" >> ~/.bashrc && source ~/.bashrc
 ```
