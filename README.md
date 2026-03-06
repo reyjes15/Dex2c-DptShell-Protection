@@ -17,6 +17,14 @@ By combining the power of **Dex2C** (translating Dalvik bytecode into native C/C
 * **🔐 Secure Authentication:** Built-in verification system to ensure only authorized members can execute the compilation process.
 * **📱 Mobile-First Design:** Fully optimized to run smoothly on Android via Termux, supporting both Rooted and Non-Rooted devices.
 
+
+## ✨ What's New in v1.1
+* **🤖 Auto-Pilot Anti-Tamper:** No more manual byte counting or 2x execution tricks! The built-in AI engine automatically creates bait files, calculates the 100% accurate final APK size, injects it, and finalizes the protection completely on its own.
+* **🌍 Multi-Language Interface:** Now supports both **English** and **Indonesian**, dynamically switchable at runtime.
+* **📂 Custom Directory Scanning:** You are no longer restricted to a hardcoded folder. Type any target folder path, and the script will automatically scan it.
+* **🧹 Smart Auto-Clean:** Automatically deletes bait and temporary files after execution to keep your workspace perfectly clean.
+* **🗂️ Organized Output:** Automatically categorizes your final APKs into specific `DEX2C/`, `DPT/`, and `COMBO/` sub-folders.
+
 ## 🚀 Installation
 To install and set up the environment, simply copy and paste the following one-liner command into your Termux application:
 
@@ -31,10 +39,10 @@ curl -sL "https://raw.githubusercontent.com/reyjes15/Dex2c-DptShell-Protection/r
 Follow these simple steps to start protecting your Android applications:
 
 **1. Prepare the Workspace**
-Create a new folder named `MOD` in your device's internal storage (SD Card).
+Create a new folder anywhere in your internal storage (e.g., `/storage/emulated/0/MOD/`).
 
 **2. Target Placement**
-Copy or move the target `.apk` file you wish to protect inside the newly created `/storage/emulated/0/MOD/` folder.
+Place the target `.apk` file you wish to protect inside the newly created folder.
 
 **3. Execute the Suite**
 Open your Termux application and execute the protector by simply typing:
@@ -42,31 +50,33 @@ Open your Termux application and execute the protector by simply typing:
 ./dcc-dpt-protection
 ```
 
-**4. Retrieve Protected Assets**
-Depending on the protection method you selected in the tool, the final protected APK will be automatically generated and saved in specific output folders inside the `/storage/emulated/0/MOD/` directory:
+**4. Follow the On-Screen Prompts**
+Select your preferred language, enter your custom folder path, and choose your protection method. The script will automatically scan the directory and process your APK.
 
-* 📁 **`MOD/DEX2C/`** ➔ Contains APKs protected with **Dex2C Only**.
-* 📁 **`MOD/DPT/`** ➔ Contains APKs protected with **DPT Only** OR the **Dex2C + DPT Shell Combo**.
+**5. Retrieve Protected Assets**
+The final protected APK will be automatically generated and saved in specific auto-created sub-folders inside your target directory:
+* 📁 **`.../DEX2C/`** ➔ Contains APKs protected with **Dex2C Only**.
+* 📁 **`.../DPT/`** ➔ Contains APKs protected with **DPT Only**.
+* 📁 **`.../COMBO/`** ➔ Contains APKs protected with **Dex2C + DPT Shell Combo** (Maximum Security).
 
-> **💡 Pro Tip (Ultimate Combo):** If you execute the combo protection, the output file found in the `DPT` folder is your ultimate protected APK. It has been successfully processed through Dex2C native obfuscation first, and subsequently wrapped with the DPT Shell Packer for maximum, iron-clad security.
+> **⚠️ CRITICAL NOTE (FOLDER CLEANUP):**
+> **ALWAYS ensure that the `DEX2C` and `COMBO` output folders are completely EMPTY or DELETED before executing the script for a new APK.** If old output files are left inside, the Auto-Pilot system might read the wrong file size, resulting in a failed Anti-Tamper injection and a crashing APK!
 
-**if you encounter Warning: linker when executing this copy and paste for the first time, if there is no problem ignore this:**
+**If you encounter a "Warning: linker" when executing this for the first time, ignore the warning or run this fix:**
 ```bash
 echo "export LD_LIBRARY_PATH=\$PREFIX/lib" >> ~/.bashrc && source ~/.bashrc
 ```
 
+## 📢 AUTOMATED ANTI-TAMPER (AUTO-PILOT)
+*Good news! The manual Anti-Tamper setup from version 1.0 is now officially obsolete.* You no longer need to execute the script twice, manually check APK properties, or copy byte sizes. Our new **Auto-Pilot** system will execute the bait process in the background, extract the exact byte size, and re-compile your APK with a 100% accurate Anti-Tamper injection. **Just 1-click and relax!**
 
-## 📢 SETUP ANTI-TAMPER
-This setup is the final size of the protected apk. so you need to do 2x protection execution to get successful apk
-1. execute the script and select the apk to protect, Enter any number in `SETUP ANTI-TAMPER`. After it is finished, protect it.  copy the size of the apk that has been protected in properties, long press, take the size in brackets
-2. Do the execution again from the beginning in your original apk (not the one that has been protected) and paste the apk size that you copied earlier in the `SETUP ANTI-TAMPER`
-3. ✅ done
-
+> **⚠️ CRITICAL NOTE (FOLDER CLEANUP):**
+> **CLEAN THE DEX2C AND COMBO FOLDER EVERY TIME YOU WANT TO EXECUTE A SCRIPT.**
 
 ## 👨‍💻 Developer & Contact
 This project is exclusively developed and maintained by:
 
-* **This script requires login, contact admin**
+* **This script requires a login, contact admin to a license.**
 * **Developer:** AXEL-Z
 * **Telegram:** [@NocturneVail](https://t.me/NocturneVail)
 
