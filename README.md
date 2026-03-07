@@ -88,7 +88,12 @@ com/some/class;.*
 com/some/package/.*;.*
 ```
 
-▣ Protect a method with the name onCreate in all classes.
+▣ Protect onCreate methods in specific classes.
+```bash
+com/some/class;.*;onCreate\(.*
+```
+
+▣ Protect a method with the name onCreate in all classes. (RISK)
 ```bash
 .*;onCreate\(.*
 ```
