@@ -68,7 +68,7 @@ echo "export LD_LIBRARY_PATH=\$PREFIX/lib" >> ~/.bashrc && source ~/.bashrc
 ```
 
 ## 📢 AUTOMATED ANTI-TAMPER (AUTO-PILOT)
-*Good news! The manual Anti-Tamper setup from version 1.0 is now officially obsolete.* You no longer need to execute the script twice, manually check APK properties, or copy byte sizes. Our new **Auto-Pilot** system will execute the bait process in the background, extract the exact byte size, and re-compile your APK with a 100% accurate Anti-Tamper injection. **Just 1-click and relax!**
+*Good news! The manual Anti-Tamper setup from version 1.0 is now officially obsolete.* You no longer need to execute the script twice, manually check APK properties. Our new **Auto-Pilot** system will execute the bait process in the background, and re-compile your APK with a 100% accurate Anti-Tamper injection. **Just 1-click and relax!**
 
 > **⚠️ CRITICAL NOTE (FOLDER CLEANUP):**
 > **CLEAN THE DEX2C AND COMBO FOLDER EVERY TIME YOU WANT TO EXECUTE A SCRIPT.**
