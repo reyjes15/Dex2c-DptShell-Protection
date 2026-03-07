@@ -73,6 +73,25 @@ echo "export LD_LIBRARY_PATH=\$PREFIX/lib" >> ~/.bashrc && source ~/.bashrc
 > **⚠️ CRITICAL NOTE (FOLDER CLEANUP):**
 > **CLEAN THE DEX2C AND COMBO FOLDER EVERY TIME YOU WANT TO EXECUTE A SCRIPT.**
 
+
+**FILTER**
+▣ Protect all methods in a specific class.
+```bash
+com/some/class;.*
+```
+
+▣ Protect all methods in all classes under a package path.
+```bash
+com/some/package/.*;.*
+```
+
+▣ Protect a method with the name onCreate in all classes.
+```bash
+.*;onCreate\(.*
+```
+
+
+
 ## 👨‍💻 Developer & Contact
 This project is exclusively developed and maintained by:
 
