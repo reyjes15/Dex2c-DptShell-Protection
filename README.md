@@ -76,7 +76,7 @@ echo "export LD_LIBRARY_PATH=\$PREFIX/lib" >> ~/.bashrc && source ~/.bashrc
 
 
 
-**FILTER**
+## **FILTER**
 
 ▣ Protect all methods in a specific class.
 ```bash
