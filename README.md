@@ -83,15 +83,16 @@ echo "export LD_LIBRARY_PATH=\$PREFIX/lib" >> ~/.bashrc && source ~/.bashrc
 com/some/class;.*
 ```
 
-▣ Protect all methods in all classes under a package path.
-```bash
-com/some/package/.*;.*
-```
-
 ▣ Protect onCreate methods in specific classes.
 ```bash
 com/some/class;.*;onCreate\(.*
 ```
+
+▣ Protect all methods in all classes under a package path. (Risk)
+```bash
+com/some/package/.*;.*
+```
+
 
 ▣ Protect a method with the name onCreate in all classes. (RISK)
 ```bash
