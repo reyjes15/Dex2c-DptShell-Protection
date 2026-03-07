@@ -74,7 +74,10 @@ echo "export LD_LIBRARY_PATH=\$PREFIX/lib" >> ~/.bashrc && source ~/.bashrc
 > **CLEAN THE DEX2C AND COMBO FOLDER EVERY TIME YOU WANT TO EXECUTE A SCRIPT.**
 
 
+
+
 **FILTER**
+
 ▣ Protect all methods in a specific class.
 ```bash
 com/some/class;.*
