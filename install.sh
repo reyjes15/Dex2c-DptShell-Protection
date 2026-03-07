@@ -58,11 +58,11 @@ rm -f dcc-dpt-protection
 wget -q --show-progress "https://github.com/reyjes15/Dex2c-DptShell-Protection/releases/download/v1.1/dcc-dpt-protection" -O dcc-dpt-protection
 chmod 700 dcc-dpt-protection
 
-# OPSI 1: Peringatan Keras di akhir instalasi
-echo -e "\e[32m[✓] INSTALASI SELESAI OLEH AXEL-Z!\e[0m"
+# OPSI 1: Strong Warning at the end of installation
+echo -e "\e[32m[✓] INSTALLATION COMPLETED BY AXEL-Z!\e[0m"
 echo -e "\e[31m====================================================\e[0m"
-echo -e "\e[31m[!] PENTING: JANGAN LANGSUNG JALANKAN SCRIPT!\e[0m"
-echo -e "\e[33m[1] KETIK: exit (lalu tekan Enter) untuk keluar Termux.\e[0m"
-echo -e "\e[33m[2] Tutup Termux dari Recent Apps (Latar Belakang).\e[0m"
-echo -e "\e[33m[3] Buka kembali Termux, lalu ketik: ./dcc-dpt-protection\e[0m"
+echo -e "\e[31m[!] IMPORTANT: DO NOT RUN THE SCRIPT DIRECTLY!\e[0m"
+echo -e "\e[33m[1] TYPE: exit (then press Enter) to exit Termux.\e[0m"
+echo -e "\e[33m[2] Close Termux from Recent Apps (Background).\e[0m"
+echo -e "\e[33m[3] Reopen Termux, then type: ./dcc-dpt-protection\e[0m"
 echo -e "\e[31m====================================================\e[0m"
