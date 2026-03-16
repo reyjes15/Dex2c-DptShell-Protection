@@ -69,11 +69,11 @@ echo "export LD_LIBRARY_PATH=\$PREFIX/lib" >> ~/.bashrc && source ~/.bashrc
 
 ## 📢 UPDATE INJECT ANTI-TAMPER
 
-  **Add:**
-  ▣ Anti Kill Signature
-  ▣ Anti Hooking
-  ▣ Anti Debug
-  ▣ Blind Static Analysis (Stack Strings)
+*  **Add:**
+* 🛡️ **`** ➔ Anti Kill Signature**.
+* 🛡️ **`** ➔ Anti Hooking**.
+* 🛡️ **`** ➔ Anti Debug**.
+* 🛡️ **`** ➔ Blind Static Analysis (Stack Strings)**.
 
 > **⚠️ CRITICAL NOTE (FOLDER CLEANUP):**
 > **CLEAN THE DEX2C AND COMBO FOLDER EVERY TIME YOU WANT TO EXECUTE A SCRIPT.**
