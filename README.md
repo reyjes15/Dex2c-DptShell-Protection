@@ -1,7 +1,7 @@
 # 🛡️ Dex2C & DPT Shell Ultimate Protection With Anti-Tamper
 **Automated Dex2C & DPT Packer Environment for Termux**
 
-![Version](https://img.shields.io/badge/Version-1.0%20Dex2cDptShell-blue)
+![Version](https://img.shields.io/badge/Version-1.2%20Dex2cDptShell-blue)
 ![Platform](https://img.shields.io/badge/Platform-Termux%20Android-green)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
@@ -18,8 +18,8 @@ By combining the power of **Dex2C** (translating Dalvik bytecode into native C/C
 * **📱 Mobile-First Design:** Fully optimized to run smoothly on Android via Termux, supporting both Rooted and Non-Rooted devices.
 
 
-## ✨ What's New in v1.1
-* **🤖 Auto-Pilot Anti-Tamper:** No more manual byte counting or 2x execution tricks! The built-in AI engine automatically creates bait files, calculates the 100% accurate final APK size, injects it, and finalizes the protection completely on its own.
+## ✨ What's New in v1.2
+* **🤖 Inject Anti-Tamper:** Anti Kill Signature, Anti Hooking, Anti Debug, Blind Static Analysis (Stack Strings)
 * **🌍 Multi-Language Interface:** Now supports both **English** and **Indonesian**, dynamically switchable at runtime.
 * **📂 Custom Directory Scanning:** You are no longer restricted to a hardcoded folder. Type any target folder path, and the script will automatically scan it.
 * **🧹 Smart Auto-Clean:** Automatically deletes bait and temporary files after execution to keep your workspace perfectly clean.
@@ -67,8 +67,13 @@ The final protected APK will be automatically generated and saved in specific au
 echo "export LD_LIBRARY_PATH=\$PREFIX/lib" >> ~/.bashrc && source ~/.bashrc
 ```
 
-## 📢 AUTOMATED ANTI-TAMPER (AUTO-PILOT)
-*Good news! The manual Anti-Tamper setup from version 1.0 is now officially obsolete.* You no longer need to execute the script twice, manually check APK properties. Our new **Auto-Pilot** system will execute the bait process in the background, and re-compile your APK with a 100% accurate Anti-Tamper injection. **Just 1-click and relax!**
+## 📢 UPDATE INJECT ANTI-TAMPER
+
+  **Add:**
+  ▣ Anti Kill Signature
+  ▣ Anti Hooking
+  ▣ Anti Debug
+  ▣ Blind Static Analysis (Stack Strings)
 
 > **⚠️ CRITICAL NOTE (FOLDER CLEANUP):**
 > **CLEAN THE DEX2C AND COMBO FOLDER EVERY TIME YOU WANT TO EXECUTE A SCRIPT.**
