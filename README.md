@@ -14,6 +14,7 @@ By combining the power of **Dex2C** (translating Dalvik bytecode into native C/C
 * **⚙️ 1-Click Environment Setup:** Automatically detects and installs required dependencies (Python, OpenJDK-17, Clang, Make, Android SDK, and NDK r26).
 * **🛡️ Native Dex2C Obfuscation:** Converts vulnerable `.dex` code into heavily obfuscated `.so` native libraries.
 * **📦 DPT Packer Integration:** Wraps the entire application structure, preventing unauthorized tampering and repackaging.
+* **🛡️ ANTI-TAMPER:** EDIT APK = CRASH
 * **🔐 Secure Authentication:** Built-in verification system to ensure only authorized members can execute the compilation process.
 * **📱 Mobile-First Design:** Fully optimized to run smoothly on Android via Termux, supporting both Rooted and Non-Rooted devices.
 
